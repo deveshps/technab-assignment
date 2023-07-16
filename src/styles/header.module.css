@@ -1,0 +1,9 @@
+.topWrapper {
+    height:80px;
+    background-color: #FFE6CC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #E1AF37;
+}

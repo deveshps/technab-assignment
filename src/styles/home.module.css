@@ -1,0 +1,78 @@
+.topWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.topSubWrapper {
+    width: 50%;
+}
+.title {
+    font-weight: 500;
+}
+.inputFieldWrapper {
+    margin-top: 50px;
+}
+.inputFieldSubWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.inputField {
+    border: 2px solid #5D5D5D;
+    border-radius: 2px;
+    height: 20px;
+    outline: none;
+    width: 30%;
+    min-width: 100px;
+    margin-left: 5px;
+}
+.optionFieldWrapper {
+    /* flex:1; */
+    width:31%;
+    margin-left: 5px;
+    text-align: right;
+    min-width: 100px;
+}
+.optionField {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #596780;
+    font-weight: 600;
+}
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M6.1018 8C5.02785 8 4.45387 9.2649 5.16108 10.0731L10.6829 16.3838C11.3801 17.1806 12.6197 17.1806 13.3169 16.3838L18.8388 10.0731C19.5459 9.2649 18.972 8 17.898 8H6.1018Z' fill='%23212121'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+  }
+.submitButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.submitButton {
+    cursor: pointer;
+    width: 90px;
+    padding: 6px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #DAE8FC;
+    border: 2px solid #8CA8CF;
+    border-radius: 6px;
+    outline: none;
+}
+@media (max-width:600px) {
+    .topSubWrapper {
+        width: 90%;
+    }
+}
